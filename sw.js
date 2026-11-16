@@ -26,7 +26,7 @@ self.addEventListener("push", function (e) {
     if (!tin.length) tin = [{ t: "HMK", b: "Bạn có thông báo mới – mở app để xem." }];
     return Promise.all(tin.slice(-4).map(function (m) {
       return self.registration.showNotification(m.t || "HMK", {
-        body: m.b || "", tag: m.id || undefined, icon: "/chamcong/icon-192.png", badge: "/chamcong/icon-192.png",
+        body: m.b || "", tag: m.id || undefined, icon: "/chamcong/icon-192.jpg", badge: "/chamcong/icon-192.jpg",
         data: { u: m.u || "" }
       });
     }));
