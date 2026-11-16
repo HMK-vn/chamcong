@@ -9,14 +9,14 @@
   "lang": "vi",
   "icons": [
     {
-      "src": "/chamcong/icon-192.png",
+      "src": "/chamcong/icon-192.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "/chamcong/icon-192.png",
+      "src": "/chamcong/icon-192.jpg",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "maskable"
     }
   ]
