@@ -1,0 +1,23 @@
+{
+  "name": "HMK Quản lý chấm công – Túi Nướng Lavender",
+  "short_name": "QL Túi",
+  "start_url": "./",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#e7ded3",
+  "theme_color": "#e7ded3",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "/chamcong/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/chamcong/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
